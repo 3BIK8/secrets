@@ -2,6 +2,9 @@
 	"name": "secrets",
 	"version": "1.0.0",
 	"description": "",
+	"engines": {
+		"node": "18.12.0"
+	},
 	"main": "app.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
@@ -9,9 +12,6 @@
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
-	"engines": {
-		"node": "18.20.0"
-	},
 	"dependencies": {
 		"bcrypt": "^5.1.0",
 		"body-parser": "^1.20.1",
